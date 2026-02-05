@@ -1,0 +1,47 @@
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# PHP tools / cache
+.phpunit.result.cache
+.phpunit.cache/
+.phpdoc/
+
+# Node / JS tooling
+/node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Build / artifacts
+/dist/
+/build/
+/coverage/
+
+# Environment files
+.env
+.env.*
+
+# IDEs / editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated docs (phpDocumentor)
+/docs/api/
+phpDocumentor.phar
+
+# Logs / temp
+*.log
+/tmp/
+/temp/
